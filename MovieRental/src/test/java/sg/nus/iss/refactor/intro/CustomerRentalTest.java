@@ -91,7 +91,7 @@ public class CustomerRentalTest {
                       "Amount owed is " + 15.5 + "\n" +
                       "You earned " + 4 + " frequent renter points";
     
-    System.out.print(expected);
+    //System.out.print(expected);
     
     assertEquals(expected, cr.statement());
   }
